@@ -1,0 +1,39 @@
+<html>
+
+<head>
+    <title>Wherefore art thou Clonegar</title>
+    <!--<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">-->
+    <link rel="stylesheet" href="stylesheets/clonegar.css">
+    <!--<script src="https://code.jquery.com/jquery-1.10.2.js"></script>-->
+    <!--<script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>-->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="javascripts/clonegar.js"></script>
+</head>
+
+<body>
+    <canvas id="canvas"></canvas>
+    <div id="overlay">
+        <div id="left">
+            <div id="chat">
+                <ul id="messages"></ul>
+            </div>
+            <input type="text" id="chatField"/>
+            <div id="username">
+                <form>
+                    <input type="text" id="nameField" />
+                    <input type="submit" id="readyBtn" value="Ready!"/>
+                </form>
+            </div>
+        </div>
+        <div id="right">
+            <div id="players">
+                <player class="player" ng-repeat="player in players | orderBy:'joinNum'" player='player' />
+            </div>
+            <button id="send" value="Send"></button>
+            <button id="startGame" = "Start Game"></button>
+        </div>
+    </div>
+</body>
+
+</html>
