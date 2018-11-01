@@ -18,12 +18,10 @@
             <div id="chat">
                 <ul id="messages"></ul>
             </div>
-            <input type="text" id="chatField"/>
+            <input type="text" id="chatField" />
             <div id="username">
-                <form>
-                    <input type="text" id="nameField" />
-                    <input type="submit" id="readyBtn" value="Ready!"/>
-                </form>
+                <input type="text" id="nameField" />
+                <input type="submit" id="readyBtn" value="Ready!" />
             </div>
         </div>
         <div id="right">
@@ -31,7 +29,7 @@
                 <player class="player" ng-repeat="player in players | orderBy:'joinNum'" player='player' />
             </div>
             <button id="send" value="Send"></button>
-            <button id="startGame" = "Start Game"></button>
+            <button id="startGame"="Start Game"></button>
         </div>
     </div>
 </body>

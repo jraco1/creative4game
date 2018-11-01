@@ -1,6 +1,6 @@
 /* global angular */
 angular.module('clonegarApp', [])
-    .controller('clonegarCtrl', clonegarCtrl),
+    .controller('clonegarCtrl', clonegarCtrl)
 	.directive('player', playerDirective);
 
 // var express = require('express');
@@ -11,6 +11,8 @@ function clonegarCtrl($scope) {
 
 }
 
+// io appears to be declared in 
+// <script src="/socket.io/socket.io.js"></script> in the html
 var socket = io.connect('http://52.15.33.242:4200');
 socket.on('connect', function(data) {
     socket.emit('join', 'Hello World from client');
@@ -33,7 +35,7 @@ function playerDirective() {
 		template: (
 			
 			<div class="player">
-			
+			{{player.name}} <span class="dot"></span>
 			</div>
 			
 // 			'<div class="definition">' +
