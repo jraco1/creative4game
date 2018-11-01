@@ -34,9 +34,9 @@ function playerDirective() {
 		replace: 'true',
 		template: (
 			
-			<div class="player">
-			{{player.name}} <span class="dot"></span>
-			</div>
+			'<div class="player">' +
+			'{{player.name}} <span class="dot"></span>' +
+			'</div>'
 			
 // 			'<div class="definition">' +
 // 			'<div class="flip-box">' +
