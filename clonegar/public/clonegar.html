@@ -2,25 +2,26 @@
 
 <head>
     <title>Wherefore art thou Clonegar</title>
-    <!--<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">-->
     <link rel="stylesheet" href="stylesheets/clonegar.css">
-    <!--<script src="https://code.jquery.com/jquery-1.10.2.js"></script>-->
-    <!--<script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>-->
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
     <script src="/socket.io/socket.io.js"></script>
     <script src="javascripts/clonegar.js"></script>
 </head>
 
-<body>
-    <!--<div id="overlay"> <!--I am not sure why overlay is here?-->
+<body ng-app="clonegarApp">
+    <!--<canvas id="canvas"></canvas>-->
+    <div id="overlay" ng-controller="clonegarCtrl">
         <div id="left">
-            <canvas id="canvas"></canvas>
-            <div id="chat">
-                <ul id="messages"></ul>
+            <div id="chat" style="overflow-y : auto">
+                <ol id="messages">
+                    <li ng-repeat="msg in msgs track by $index">
+                        {{msg}}
+                    </li>
+                </ol>
             </div>
-            <input type="text" id="chatField" placeholder="Enter message"/>
+            <input type="text" id="chatField" placeholder="Enter message" ng-model="message"/>
             <div id="username">
-                <input type="text" id="nameField" placeholder="Enter username" />
+                <input type="text" id="nameField" placeholder="Enter username" ng-model="username"/>
                 <input type="submit" id="readyBtn" value="Ready!" />
             </div>
         </div>
@@ -28,10 +29,10 @@
             <div id="players">
                 <player class="player" ng-repeat="player in players | orderBy:'joinNum'" player='player' />
             </div>
-            <button class="button" style="vertical-align:middle" id="send" value="Send"><span>Send </span></button>
-            <button class="button" style="vertical-align:middle" id="startGame"="Start Game"><span>Start Game </span></button>
+            <button class="button" style="vertical-align:middle" id="send" ng-click="sendMsg()"><span>Send </span></button>
+            <button class="button" style="vertical-align:middle" id="startGame"><span>Start Game </span></button>
         </div>
-    <!--</div>-->
+    </div>
 </body>
 
 </html>
