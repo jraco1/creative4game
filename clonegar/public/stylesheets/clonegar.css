@@ -5,16 +5,34 @@ body {
     margin: 10px;
 }
 
+#overlay{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
 #left {
-    float: left;
     width: 70%;
     margin: 15px;
+    display: flex;
+    flex-direction: column;
 }
 
 #right {
-    float: left;
     width: 20%;
     margin: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+#players{
+    background-color: white;
+    align-items: stretch;
+    display: flex;
+    height: 75%;
+    border-radius: 10px;
+    margin-bottom: 15px;
 }
 
 /*#canvas {*/
@@ -31,9 +49,9 @@ body {
 
 #chat {
     background-color: #f1e3dd;
-    width: 75%;
     height: 75%;
     border-radius: 10px;
+    margin-bottom: 15px;
 }
 
 #chatField {
@@ -46,25 +64,37 @@ body {
 
 #nameField {
     height: 40px;
-    width: 70%;
-    margin-right: 5px;
+    width: 100%;
+    margin-bottom: 5px;
     font-size: 18px;
     padding: 10px;
+    margin-right: 7px
 }
 
-#readyBtn {
-    width: 26%;
-    border: none;
+#username{
+    display: flex;
+}
+
+#changeName{
+    width: 310px;
+    padding: 10px;
+    margin: 0;
+    font-size: 18px;
+}
+
+#readyBtn{
+    width: 180px;
+}
+
+#send {
     background-color: #8d9db6;
     color: #ffffff;
-    padding: 10;
-    font-size: 25px;
     cursor: pointer;
     text-align: center;
-    border-radius: 10px;
+    transition: all 0s;
 }
 
-#readyBtn:hover {
+#send:hover {
     background-color: #667292;
 }
 
@@ -101,10 +131,10 @@ body {
     text-align: center;
     font-size: 20px;
     padding: 10px;
-    width: 180px;
+    width: 100%;
     transition: all 0.5s;
     cursor: pointer;
-    margin: 5px;
+    margin-bottom: 5px;
 }
 
 .button span {

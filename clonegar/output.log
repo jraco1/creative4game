@@ -3,3 +3,412 @@ Listening on port 3000
 [0mGET / [36m304 [0m8.583 ms - -[0m
 [0mGET /stylesheets/clonegar.css [36m304 [0m2.808 ms - -[0m
 [0mGET /javascripts/clonegar.js [36m304 [0m1.997 ms - -[0m
+[0mGET / [36m304 [0m1.476 ms - -[0m
+[0mGET /stylesheets/clonegar.css [36m304 [0m1.042 ms - -[0m
+[0mGET /javascripts/clonegar.js [36m304 [0m0.360 ms - -[0m
+[0mGET / [36m304 [0m0.628 ms - -[0m
+[0mGET /stylesheets/clonegar.css [36m304 [0m0.946 ms - -[0m
+[0mGET /javascripts/clonegar.js [36m304 [0m0.630 ms - -[0m
+[0mGET / [32m200 [0m4.065 ms - 1578[0m
+[0mGET /stylesheets/clonegar.css [32m200 [0m1.407 ms - 1814[0m
+[0mGET /javascripts/clonegar.js [32m200 [0m0.546 ms - 1331[0m
+[0mGET /favicon.ico [33m404 [0m348.821 ms - 1282[0m
+[0mGET / [36m304 [0m1.061 ms - -[0m
+[0mGET /stylesheets/clonegar.css [36m304 [0m1.344 ms - -[0m
+[0mGET /javascripts/clonegar.js [36m304 [0m0.479 ms - -[0m
+[0mGET / [36m304 [0m3.198 ms - -[0m
+[0mGET /stylesheets/clonegar.css [36m304 [0m0.352 ms - -[0m
+[0mGET /javascripts/clonegar.js [36m304 [0m0.341 ms - -[0m
+[0mGET / [36m304 [0m0.595 ms - -[0m
+[0mGET /stylesheets/clonegar.css [36m304 [0m0.734 ms - -[0m
+[0mGET /javascripts/clonegar.js [36m304 [0m0.367 ms - -[0m
+[0mGET / [36m304 [0m19.105 ms - -[0m
+[0mGET /stylesheets/clonegar.css [36m304 [0m2.555 ms - -[0m
+[0mGET /javascripts/clonegar.js [36m304 [0m1.253 ms - -[0m
+[0mGET / [32m200 [0m2.523 ms - 1525[0m
+[0mGET /stylesheets/clonegar.css [32m200 [0m0.987 ms - 2356[0m
+[0mGET /javascripts/clonegar.js [32m200 [0m0.946 ms - 1641[0m
+a user connected
+Hello World from client
+[0mGET / [32m200 [0m2.648 ms - 1525[0m
+[0mGET /stylesheets/clonegar.css [32m200 [0m1.378 ms - 2407[0m
+[0mGET /javascripts/clonegar.js [36m304 [0m0.556 ms - -[0m
+a user connected
+Hello World from client
+[0mGET /stylesheets/clonegar.css [36m304 [0m0.491 ms - -[0m
+[0mGET / [32m200 [0m1.031 ms - 1525[0m
+[0mGET /stylesheets/clonegar.css [32m200 [0m0.680 ms - 2407[0m
+[0mGET /javascripts/clonegar.js [32m200 [0m0.405 ms - 1641[0m
+a user connected
+Hello World from client
+[0mGET / [32m200 [0m4.026 ms - 1525[0m
+[0mGET /stylesheets/clonegar.css [32m200 [0m0.735 ms - 2474[0m
+[0mGET /javascripts/clonegar.js [32m200 [0m0.399 ms - 1641[0m
+a user connected
+Hello World from client
+[0mGET / [32m200 [0m0.881 ms - 1525[0m
+[0mGET /stylesheets/clonegar.css [32m200 [0m0.564 ms - 2502[0m
+[0mGET /javascripts/clonegar.js [32m200 [0m0.610 ms - 1641[0m
+a user connected
+Hello World from client
+[0mGET / [32m200 [0m1.137 ms - 1525[0m
+[0mGET /stylesheets/clonegar.css [32m200 [0m0.944 ms - 2494[0m
+[0mGET /javascripts/clonegar.js [32m200 [0m1.777 ms - 1641[0m
+a user connected
+Hello World from client
+[0mGET / [32m200 [0m0.943 ms - 1525[0m
+[0mGET /stylesheets/clonegar.css [32m200 [0m0.595 ms - 2490[0m
+[0mGET /javascripts/clonegar.js [32m200 [0m1.888 ms - 1641[0m
+a user connected
+Hello World from client
+[0mGET / [32m200 [0m0.888 ms - 1525[0m
+[0mGET /stylesheets/clonegar.css [32m200 [0m0.576 ms - 2486[0m
+[0mGET /javascripts/clonegar.js [32m200 [0m0.546 ms - 1641[0m
+a user connected
+Hello World from client
+[0mGET / [32m200 [0m0.832 ms - 1525[0m
+[0mGET /stylesheets/clonegar.css [32m200 [0m1.304 ms - 2490[0m
+[0mGET /javascripts/clonegar.js [32m200 [0m0.667 ms - 1641[0m
+a user connected
+Hello World from client
+[0mGET /stylesheets/clonegar.css [36m304 [0m0.442 ms - -[0m
+[0mGET / [32m200 [0m2.130 ms - 1525[0m
+[0mGET /stylesheets/clonegar.css [32m200 [0m1.136 ms - 2482[0m
+[0mGET /javascripts/clonegar.js [32m200 [0m0.720 ms - 1641[0m
+a user connected
+Hello World from client
+[0mGET / [32m200 [0m7.837 ms - 1525[0m
+[0mGET /stylesheets/clonegar.css [32m200 [0m1.508 ms - 2500[0m
+[0mGET /javascripts/clonegar.js [32m200 [0m0.539 ms - 1641[0m
+a user connected
+Hello World from client
+[0mGET / [32m200 [0m1.015 ms - 1525[0m
+[0mGET /stylesheets/clonegar.css [32m200 [0m0.634 ms - 2499[0m
+[0mGET /javascripts/clonegar.js [32m200 [0m0.550 ms - 1641[0m
+a user connected
+Hello World from client
+[0mGET / [32m200 [0m2.124 ms - 1525[0m
+[0mGET /stylesheets/clonegar.css [32m200 [0m1.061 ms - 2507[0m
+[0mGET /javascripts/clonegar.js [32m200 [0m1.210 ms - 1641[0m
+a user connected
+Hello World from client
+[0mGET / [32m200 [0m1.108 ms - 1525[0m
+[0mGET /stylesheets/clonegar.css [32m200 [0m3.982 ms - 2507[0m
+[0mGET /javascripts/clonegar.js [32m200 [0m1.177 ms - 1641[0m
+a user connected
+Hello World from client
+[0mGET / [32m200 [0m1.222 ms - 1525[0m
+[0mGET /stylesheets/clonegar.css [32m200 [0m0.623 ms - 2524[0m
+[0mGET /javascripts/clonegar.js [32m200 [0m0.514 ms - 1641[0m
+a user connected
+Hello World from client
+[0mGET / [32m200 [0m0.817 ms - 1525[0m
+[0mGET /stylesheets/clonegar.css [32m200 [0m0.569 ms - 2524[0m
+[0mGET /javascripts/clonegar.js [32m200 [0m0.441 ms - 1641[0m
+a user connected
+Hello World from client
+[0mGET / [32m200 [0m0.767 ms - 1525[0m
+[0mGET /stylesheets/clonegar.css [32m200 [0m0.609 ms - 2581[0m
+[0mGET /javascripts/clonegar.js [32m200 [0m0.409 ms - 1641[0m
+a user connected
+Hello World from client
+[0mGET / [32m200 [0m0.840 ms - 1525[0m
+[0mGET /stylesheets/clonegar.css [32m200 [0m1.574 ms - 2562[0m
+[0mGET /javascripts/clonegar.js [32m200 [0m0.988 ms - 1641[0m
+a user connected
+Hello World from client
+[0mGET / [32m200 [0m1.299 ms - 1525[0m
+[0mGET /stylesheets/clonegar.css [32m200 [0m0.596 ms - 2591[0m
+[0mGET /javascripts/clonegar.js [32m200 [0m1.824 ms - 1641[0m
+a user connected
+Hello World from client
+[0mGET / [32m200 [0m0.841 ms - 1555[0m
+[0mGET /stylesheets/clonegar.css [32m200 [0m1.701 ms - 2591[0m
+[0mGET /javascripts/clonegar.js [32m200 [0m0.333 ms - 1641[0m
+a user connected
+Hello World from client
+[0mGET / [32m200 [0m2.381 ms - 1555[0m
+[0mGET /stylesheets/clonegar.css [32m200 [0m0.934 ms - 2591[0m
+[0mGET /javascripts/clonegar.js [32m200 [0m0.714 ms - 1641[0m
+a user connected
+Hello World from client
+[0mGET / [32m200 [0m1.308 ms - 1555[0m
+[0mGET /stylesheets/clonegar.css [32m200 [0m0.596 ms - 2676[0m
+[0mGET /javascripts/clonegar.js [32m200 [0m0.366 ms - 1641[0m
+a user connected
+Hello World from client
+[0mGET / [32m200 [0m1.400 ms - 1562[0m
+[0mGET /stylesheets/clonegar.css [32m200 [0m0.654 ms - 2676[0m
+[0mGET /javascripts/clonegar.js [32m200 [0m0.418 ms - 1641[0m
+a user connected
+Hello World from client
+[0mGET / [32m200 [0m0.865 ms - 1525[0m
+[0mGET /stylesheets/clonegar.css [32m200 [0m0.579 ms - 2676[0m
+[0mGET /javascripts/clonegar.js [32m200 [0m0.591 ms - 1641[0m
+a user connected
+Hello World from client
+[0mGET / [32m200 [0m2.060 ms - 1525[0m
+[0mGET /stylesheets/clonegar.css [32m200 [0m3.304 ms - 2723[0m
+[0mGET /javascripts/clonegar.js [32m200 [0m0.899 ms - 1641[0m
+a user connected
+Hello World from client
+[0mGET / [32m200 [0m0.740 ms - 1525[0m
+[0mGET /stylesheets/clonegar.css [32m200 [0m0.529 ms - 2767[0m
+[0mGET /javascripts/clonegar.js [32m200 [0m0.382 ms - 1641[0m
+a user connected
+Hello World from client
+[0mGET / [32m200 [0m1.465 ms - 1525[0m
+[0mGET /stylesheets/clonegar.css [32m200 [0m0.633 ms - 2925[0m
+[0mGET /javascripts/clonegar.js [32m200 [0m0.399 ms - 1641[0m
+a user connected
+Hello World from client
+[0mGET / [32m200 [0m0.764 ms - 1525[0m
+[0mGET /stylesheets/clonegar.css [32m200 [0m0.586 ms - 2954[0m
+[0mGET /javascripts/clonegar.js [32m200 [0m0.349 ms - 1641[0m
+a user connected
+Hello World from client
+[0mGET / [32m200 [0m0.750 ms - 1525[0m
+[0mGET /stylesheets/clonegar.css [32m200 [0m0.643 ms - 2676[0m
+[0mGET /javascripts/clonegar.js [32m200 [0m1.141 ms - 1641[0m
+a user connected
+Hello World from client
+[0mGET / [32m200 [0m0.781 ms - 1525[0m
+[0mGET /stylesheets/clonegar.css [32m200 [0m0.616 ms - 2820[0m
+[0mGET /javascripts/clonegar.js [32m200 [0m0.629 ms - 1641[0m
+a user connected
+Hello World from client
+[0mGET /stylesheets/clonegar.css [36m304 [0m21.783 ms - -[0m
+[0mGET / [32m200 [0m24.256 ms - 1525[0m
+[0mGET /stylesheets/clonegar.css [32m200 [0m1.002 ms - 2676[0m
+[0mGET /javascripts/clonegar.js [32m200 [0m0.596 ms - 1641[0m
+a user connected
+Hello World from client
+[0mGET / [32m200 [0m1.840 ms - 1570[0m
+[0mGET /stylesheets/clonegar.css [32m200 [0m1.730 ms - 2676[0m
+[0mGET /javascripts/clonegar.js [32m200 [0m0.546 ms - 1641[0m
+a user connected
+Hello World from client
+[0mGET / [32m200 [0m0.950 ms - 1557[0m
+[0mGET /stylesheets/clonegar.css [32m200 [0m0.645 ms - 2676[0m
+[0mGET /javascripts/clonegar.js [32m200 [0m0.624 ms - 1641[0m
+a user connected
+Hello World from client
+[0mGET / [32m200 [0m0.773 ms - 1557[0m
+[0mGET /stylesheets/clonegar.css [32m200 [0m0.627 ms - 2676[0m
+[0mGET /javascripts/clonegar.js [32m200 [0m0.616 ms - 1641[0m
+a user connected
+Hello World from client
+[0mGET / [32m200 [0m0.858 ms - 1572[0m
+[0mGET /stylesheets/clonegar.css [32m200 [0m2.198 ms - 2716[0m
+[0mGET /javascripts/clonegar.js [32m200 [0m2.123 ms - 1641[0m
+a user connected
+Hello World from client
+[0mGET / [32m200 [0m2.006 ms - 1572[0m
+[0mGET /stylesheets/clonegar.css [32m200 [0m1.494 ms - 2550[0m
+[0mGET /javascripts/clonegar.js [32m200 [0m0.559 ms - 1641[0m
+a user connected
+Hello World from client
+[0mGET / [32m200 [0m0.786 ms - 1572[0m
+[0mGET /stylesheets/clonegar.css [32m200 [0m0.586 ms - 2716[0m
+[0mGET /javascripts/clonegar.js [32m200 [0m0.627 ms - 1641[0m
+a user connected
+Hello World from client
+[0mGET / [32m200 [0m0.822 ms - 1572[0m
+[0mGET /stylesheets/clonegar.css [32m200 [0m0.604 ms - 2749[0m
+[0mGET /javascripts/clonegar.js [32m200 [0m0.529 ms - 1641[0m
+a user connected
+Hello World from client
+[0mGET / [32m200 [0m0.781 ms - 1572[0m
+[0mGET /stylesheets/clonegar.css [32m200 [0m0.644 ms - 2633[0m
+[0mGET /javascripts/clonegar.js [32m200 [0m0.551 ms - 1641[0m
+a user connected
+Hello World from client
+[0mGET / [32m200 [0m0.798 ms - 1574[0m
+[0mGET /stylesheets/clonegar.css [32m200 [0m0.570 ms - 2516[0m
+[0mGET /javascripts/clonegar.js [32m200 [0m0.573 ms - 1641[0m
+a user connected
+Hello World from client
+[0mGET / [32m200 [0m1.552 ms - 1562[0m
+[0mGET /stylesheets/clonegar.css [32m200 [0m0.650 ms - 2516[0m
+[0mGET /javascripts/clonegar.js [32m200 [0m1.670 ms - 1641[0m
+a user connected
+Hello World from client
+[0mGET / [32m200 [0m2.002 ms - 1576[0m
+[0mGET /stylesheets/clonegar.css [32m200 [0m0.689 ms - 2516[0m
+[0mGET /javascripts/clonegar.js [32m200 [0m0.399 ms - 1641[0m
+a user connected
+Hello World from client
+[0mGET / [32m200 [0m1.064 ms - 1563[0m
+[0mGET /stylesheets/clonegar.css [32m200 [0m22.237 ms - 2516[0m
+[0mGET /javascripts/clonegar.js [32m200 [0m1.545 ms - 1641[0m
+a user connected
+Hello World from client
+[0mGET / [32m200 [0m3.364 ms - 1572[0m
+[0mGET /stylesheets/clonegar.css [32m200 [0m1.131 ms - 2508[0m
+[0mGET /javascripts/clonegar.js [32m200 [0m0.556 ms - 1641[0m
+a user connected
+Hello World from client
+[0mGET / [32m200 [0m8.267 ms - 1593[0m
+[0mGET /stylesheets/clonegar.css [32m200 [0m1.507 ms - 2508[0m
+[0mGET /javascripts/clonegar.js [32m200 [0m1.736 ms - 1641[0m
+a user connected
+Hello World from client
+[0mGET / [32m200 [0m0.997 ms - 1599[0m
+[0mGET /stylesheets/clonegar.css [32m200 [0m0.631 ms - 2508[0m
+[0mGET /javascripts/clonegar.js [32m200 [0m0.565 ms - 1641[0m
+a user connected
+Hello World from client
+[0mGET / [32m200 [0m0.817 ms - 1599[0m
+[0mGET /stylesheets/clonegar.css [32m200 [0m0.610 ms - 2527[0m
+[0mGET /javascripts/clonegar.js [32m200 [0m0.358 ms - 1641[0m
+a user connected
+Hello World from client
+[0mGET / [32m200 [0m0.780 ms - 1599[0m
+[0mGET /stylesheets/clonegar.css [32m200 [0m0.660 ms - 2532[0m
+[0mGET /javascripts/clonegar.js [32m200 [0m0.637 ms - 1641[0m
+a user connected
+Hello World from client
+[0mGET / [32m200 [0m0.883 ms - 1586[0m
+[0mGET /stylesheets/clonegar.css [32m200 [0m1.362 ms - 2532[0m
+[0mGET /javascripts/clonegar.js [32m200 [0m0.691 ms - 1641[0m
+a user connected
+Hello World from client
+[0mGET / [32m200 [0m0.794 ms - 1583[0m
+[0mGET /stylesheets/clonegar.css [32m200 [0m0.589 ms - 2532[0m
+[0mGET /javascripts/clonegar.js [32m200 [0m0.360 ms - 1641[0m
+a user connected
+Hello World from client
+[0mGET / [32m200 [0m0.788 ms - 1553[0m
+[0mGET /stylesheets/clonegar.css [32m200 [0m0.992 ms - 2532[0m
+[0mGET /javascripts/clonegar.js [32m200 [0m0.364 ms - 1641[0m
+a user connected
+Hello World from client
+[0mGET / [32m200 [0m0.832 ms - 1597[0m
+[0mGET /stylesheets/clonegar.css [32m200 [0m0.568 ms - 2532[0m
+[0mGET /javascripts/clonegar.js [32m200 [0m1.737 ms - 1641[0m
+a user connected
+Hello World from client
+[0mGET / [32m200 [0m0.804 ms - 1597[0m
+[0mGET /stylesheets/clonegar.css [32m200 [0m0.613 ms - 2512[0m
+[0mGET /javascripts/clonegar.js [32m200 [0m0.418 ms - 1641[0m
+a user connected
+Hello World from client
+[0mGET / [32m200 [0m0.755 ms - 1597[0m
+[0mGET /stylesheets/clonegar.css [32m200 [0m0.617 ms - 2589[0m
+[0mGET /javascripts/clonegar.js [32m200 [0m0.587 ms - 1641[0m
+a user connected
+Hello World from client
+[0mGET / [32m200 [0m1.723 ms - 1597[0m
+[0mGET /stylesheets/clonegar.css [32m200 [0m0.902 ms - 2596[0m
+[0mGET /javascripts/clonegar.js [32m200 [0m0.693 ms - 1641[0m
+a user connected
+Hello World from client
+[0mGET / [32m200 [0m1.000 ms - 1597[0m
+[0mGET /stylesheets/clonegar.css [32m200 [0m1.093 ms - 2596[0m
+[0mGET /javascripts/clonegar.js [32m200 [0m0.429 ms - 1641[0m
+a user connected
+Hello World from client
+[0mGET / [32m200 [0m1.745 ms - 1597[0m
+[0mGET /stylesheets/clonegar.css [32m200 [0m1.542 ms - 2619[0m
+[0mGET /javascripts/clonegar.js [32m200 [0m0.533 ms - 1641[0m
+a user connected
+Hello World from client
+[0mGET / [32m200 [0m2.274 ms - 1597[0m
+[0mGET /stylesheets/clonegar.css [32m200 [0m0.555 ms - 2619[0m
+[0mGET /javascripts/clonegar.js [32m200 [0m0.444 ms - 1641[0m
+a user connected
+Hello World from client
+[0mGET / [32m200 [0m0.756 ms - 1597[0m
+[0mGET /stylesheets/clonegar.css [32m200 [0m1.860 ms - 2619[0m
+[0mGET /javascripts/clonegar.js [32m200 [0m1.589 ms - 1641[0m
+a user connected
+Hello World from client
+[0mGET /stylesheets/clonegar.css [36m304 [0m1.365 ms - -[0m
+[0mGET / [32m200 [0m1.291 ms - 1597[0m
+[0mGET /stylesheets/clonegar.css [32m200 [0m0.556 ms - 2619[0m
+[0mGET /javascripts/clonegar.js [32m200 [0m0.440 ms - 1641[0m
+a user connected
+Hello World from client
+[0mGET / [32m200 [0m0.770 ms - 1597[0m
+[0mGET /stylesheets/clonegar.css [32m200 [0m1.091 ms - 2650[0m
+[0mGET /javascripts/clonegar.js [32m200 [0m0.404 ms - 1641[0m
+a user connected
+Hello World from client
+[0mGET /stylesheets/clonegar.css [36m304 [0m1.316 ms - -[0m
+[0mGET / [32m200 [0m2.191 ms - 1597[0m
+[0mGET /stylesheets/clonegar.css [32m200 [0m0.562 ms - 2704[0m
+[0mGET /javascripts/clonegar.js [32m200 [0m0.492 ms - 1641[0m
+a user connected
+Hello World from client
+[0mGET / [32m200 [0m2.037 ms - 1639[0m
+[0mGET /stylesheets/clonegar.css [36m304 [0m0.903 ms - -[0m
+[0mGET /javascripts/clonegar.js [36m304 [0m0.557 ms - -[0m
+a user connected
+Hello World from client
+[0mGET /stylesheets/clonegar.css [36m304 [0m0.618 ms - -[0m
+[0mGET / [32m200 [0m2.798 ms - 1655[0m
+[0mGET /stylesheets/clonegar.css [32m200 [0m0.921 ms - 2772[0m
+[0mGET /javascripts/clonegar.js [32m200 [0m0.762 ms - 1641[0m
+a user connected
+Hello World from client
+[0mGET / [32m200 [0m0.971 ms - 1655[0m
+[0mGET /stylesheets/clonegar.css [32m200 [0m0.667 ms - 2791[0m
+[0mGET /javascripts/clonegar.js [32m200 [0m0.496 ms - 1641[0m
+a user connected
+Hello World from client
+[0mGET / [32m200 [0m0.885 ms - 1649[0m
+[0mGET /stylesheets/clonegar.css [32m200 [0m0.598 ms - 2791[0m
+[0mGET /javascripts/clonegar.js [32m200 [0m3.074 ms - 1641[0m
+a user connected
+Hello World from client
+[0mGET / [32m200 [0m0.844 ms - 1647[0m
+[0mGET /stylesheets/clonegar.css [32m200 [0m0.609 ms - 2793[0m
+[0mGET /javascripts/clonegar.js [32m200 [0m0.348 ms - 1641[0m
+a user connected
+Hello World from client
+[0mGET / [32m200 [0m0.824 ms - 1647[0m
+[0mGET /stylesheets/clonegar.css [32m200 [0m0.649 ms - 2793[0m
+[0mGET /javascripts/clonegar.js [32m200 [0m1.460 ms - 1641[0m
+a user connected
+Hello World from client
+[0mGET / [32m200 [0m0.814 ms - 1647[0m
+[0mGET /stylesheets/clonegar.css [32m200 [0m1.081 ms - 2793[0m
+[0mGET /javascripts/clonegar.js [32m200 [0m0.594 ms - 1641[0m
+a user connected
+Hello World from client
+[0mGET / [32m200 [0m0.790 ms - 1647[0m
+[0mGET /stylesheets/clonegar.css [32m200 [0m0.971 ms - 2793[0m
+[0mGET /javascripts/clonegar.js [32m200 [0m0.538 ms - 1641[0m
+a user connected
+Hello World from client
+[0mGET /stylesheets/clonegar.css [36m304 [0m0.536 ms - -[0m
+[0mGET / [32m200 [0m0.743 ms - 1647[0m
+[0mGET /stylesheets/clonegar.css [32m200 [0m0.593 ms - 2793[0m
+[0mGET /javascripts/clonegar.js [32m200 [0m0.620 ms - 1641[0m
+a user connected
+Hello World from client
+[0mGET / [36m304 [0m0.601 ms - -[0m
+[0mGET /stylesheets/clonegar.css [36m304 [0m0.771 ms - -[0m
+[0mGET /javascripts/clonegar.js [36m304 [0m0.522 ms - -[0m
+a user connected
+Hello World from client
+[0mGET / [36m304 [0m0.578 ms - -[0m
+[0mGET /stylesheets/clonegar.css [32m200 [0m0.630 ms - 2858[0m
+[0mGET /javascripts/clonegar.js [36m304 [0m0.416 ms - -[0m
+a user connected
+Hello World from client
+[0mGET / [36m304 [0m1.335 ms - -[0m
+[0mGET /stylesheets/clonegar.css [32m200 [0m0.574 ms - 2793[0m
+[0mGET /javascripts/clonegar.js [36m304 [0m0.238 ms - -[0m
+a user connected
+Hello World from client
+[0mGET / [36m304 [0m0.626 ms - -[0m
+[0mGET /stylesheets/clonegar.css [36m304 [0m0.823 ms - -[0m
+[0mGET /javascripts/clonegar.js [36m304 [0m0.551 ms - -[0m
+a user connected
+Hello World from client
+[0mGET / [36m304 [0m0.542 ms - -[0m
+[0mGET /stylesheets/clonegar.css [32m200 [0m0.613 ms - 2793[0m
+[0mGET /javascripts/clonegar.js [36m304 [0m0.434 ms - -[0m
+a user connected
+Hello World from client

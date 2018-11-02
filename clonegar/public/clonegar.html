@@ -21,16 +21,19 @@
             </div>
             <input type="text" id="chatField" placeholder="Enter message" ng-model="message"/>
             <div id="username">
-                <input type="text" id="nameField" placeholder="Enter username" ng-model="username"/>
-                <input type="submit" id="readyBtn" value="Ready!" />
+                <p id="changeName">Change User Name</p>
+                <input type="text" id="nameField" placeholder="Player 1" ng-model="username"/>
+                <button class="button" type="submit" id="readyBtn" value="Ready!"><span>Ready </span></button>
             </div>
         </div>
         <div id="right">
             <div id="players">
                 <player class="player" ng-repeat="player in players | orderBy:'joinNum'" player='player' />
             </div>
-            <button class="button" style="vertical-align:middle" id="send" ng-click="sendMsg()"><span>Send </span></button>
-            <button class="button" style="vertical-align:middle" id="startGame"><span>Start Game </span></button>
+            <div>
+                <button class="button" style="vertical-align:middle" id="send" ng-click="sendMsg()">Send</button>
+                <button class="button" style="vertical-align:middle" id="startGame"><span>Start Game</span></button>
+            </div>
         </div>
     </div>
 </body>
