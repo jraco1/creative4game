@@ -12,15 +12,15 @@
 </head>
 
 <body>
-    <canvas id="canvas"></canvas>
-    <div id="overlay">
+    <!--<div id="overlay"> <!--I am not sure why overlay is here?-->
         <div id="left">
+            <canvas id="canvas"></canvas>
             <div id="chat">
                 <ul id="messages"></ul>
             </div>
-            <input type="text" id="chatField" />
+            <input type="text" id="chatField" placeholder="Enter message"/>
             <div id="username">
-                <input type="text" id="nameField" />
+                <input type="text" id="nameField" placeholder="Enter username" />
                 <input type="submit" id="readyBtn" value="Ready!" />
             </div>
         </div>
@@ -28,10 +28,10 @@
             <div id="players">
                 <player class="player" ng-repeat="player in players | orderBy:'joinNum'" player='player' />
             </div>
-            <button id="send" value="Send"></button>
-            <button id="startGame"="Start Game"></button>
+            <button class="button" style="vertical-align:middle" id="send" value="Send"><span>Send </span></button>
+            <button class="button" style="vertical-align:middle" id="startGame"="Start Game"><span>Start Game </span></button>
         </div>
-    </div>
+    <!--</div>-->
 </body>
 
 </html>

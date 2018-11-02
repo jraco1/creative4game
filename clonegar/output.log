@@ -1,0 +1,5 @@
+nohup: ignoring input
+Listening on port 3000
+[0mGET / [36m304 [0m8.583 ms - -[0m
+[0mGET /stylesheets/clonegar.css [36m304 [0m2.808 ms - -[0m
+[0mGET /javascripts/clonegar.js [36m304 [0m1.997 ms - -[0m
