@@ -7,6 +7,9 @@
 var app = require('../app');
 var debug = require('debug')('clonegar:server');
 var http = require('http');
+var playerNum = 1;
+var currentRoomNum = 1;
+var maxPlayersInRoom = 10;
 
 /**
  * Get port from environment and store in Express.
@@ -31,18 +34,55 @@ var io = require('socket.io')(server);
 io.on('connection', function(client) {
 	console.log('a user connected');
 
-	// client.on('join', function(data) {
-	// 	// console.log ("Client.on data:");
-	// 	console.log(data);
-	// 	// client.emit ('messages', 'Hello from server');
-	// });
-	client.on ('chat message', function (data){
-		console.log ("Got chat message: ");
-		console.log (data);
-		client.emit ('broadcast msg', data);
-		client.broadcast.emit ('broadcast msg', data);
+	// console.log(io.sockets.adapter.rooms);
+
+	client.on('join', function(data) {
+
+		console.log("new connection");
+		var room = 'room' + currentRoomNum;
+		client.join(room);
+
+		if (io.sockets.adapter.rooms[room].length > maxPlayersInRoom) {
+			console.log("Too many players, new room!");
+			client.leave(room);
+			currentRoomNum++;
+			room = 'room' + currentRoomNum;
+			// io.sockets.adapter.rooms.push(room);
+			client.join(room);
+			client.emit('room', room);
+		}
+		client.emit ('new player', {playerNum: playerNum});
+		if (io.sockets.adapter.rooms[room].length === 1) {
+
+			client.emit('first player');
+		}
+		console.log("Joined room " + room);
+		console.log("Players in room: " + io.sockets.adapter.rooms[room].length);
+
+		client.emit('playerNum', playerNum++);
+		client.emit('room', room);
+	});
+	
+	client.on ('ready', function (data){
+		io.in (data.room).emit('ready', data);
+	});
+
+	client.on('chat message', function(data) {
+		console.log("Got chat message: ");
+		console.log(data);
+		// client.emit('broadcast msg', data);
+		// client.broadcast.emit('broadcast msg', data);
+		// var room = io.sockets.manager.roomClients[client.id];
+		var room = data.room;
+		// client.in(client.room).emit ('broadcast msg', data);
+		// client.in(client.room).broadcast.emit ('broadcast msg', data);
+		io.in(room).emit('broadcast msg', data);
+		// io.in (room).broadcast.emit ('broadcast msg', data);
 	});
 });
+
+// Create the first room
+// io.sockets.adapter.rooms.push('room' + currentRoomNum);
 
 server.listen(port);
 console.log("Listening on port " + port);

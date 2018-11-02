@@ -3,6 +3,7 @@
 <head>
     <title>Wherefore art thou Clonegar</title>
     <link rel="stylesheet" href="stylesheets/clonegar.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
     <script src="/socket.io/socket.io.js"></script>
     <script src="javascripts/clonegar.js"></script>
@@ -19,16 +20,16 @@
                     </li>
                 </ol>
             </div>
-            <input type="text" id="chatField" placeholder="Enter message" ng-model="message"/>
+            <input type="text" id="chatField" placeholder="Enter message" ng-model="message" (keyup.enter)="sendMsg()" />
             <div id="username">
                 <p id="changeName">Change User Name</p>
-                <input type="text" id="nameField" placeholder="Player 1" ng-model="username"/>
-                <button class="button" type="submit" id="readyBtn" value="Ready!"><span>Ready </span></button>
+                <input type="text" id="nameField" placeholder="Player 1" ng-model="username" />
+                <button class="button" type="submit" id="readyBtn" value="Ready!" ng-click="ready()"><span>Ready </span></button>
             </div>
         </div>
         <div id="right">
             <div id="players">
-                <player class="player" ng-repeat="player in players | orderBy:'joinNum'" player='player' />
+                <player class="player" ng-repeat="player in players track by $index" player='player' />
             </div>
             <div>
                 <button class="button" style="vertical-align:middle" id="send" ng-click="sendMsg()">Send</button>
